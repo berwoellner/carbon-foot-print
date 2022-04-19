@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon footprint</title>
+    <script src="ola.js" defer></script>
+<style>
+    input {
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+
+<form>
+    <h1>CARBON FOOT PRINT</h1>
+    <br>
+    <img src="https://greensmallbusiness.com/wp-content/uploads/2021/07/carbon-footprint-optimised.png">
+    <h2>Meat eating</h2>
+    <br>
+    <br>
+    <input type="radio" name="meat_amount" id="heavy_eater" value="heavy_eater">
+    <label for="heavy_eater">+ than 100g</label>
+    <br>
+    <input type="radio" name="meat_amount" id="medium_eater" value="medium_eater">
+    <label for="medium_eater">among 50g to 99g</label>
+    <br>
+    <input type="radio" name="meat_amount" id="light_eater" value="low_eater">
+    <label for="low_eater">- than 50g</label>
+    <br>
+    <input type="radio" name="meat_amount" id="pescaterian" value="pescaterian">
+    <label for="pescatarian">pescaterian</label>
+    <br>
+    <input type="radio" name="meat_amount" id="vegetarian" value="vegetarian">
+    <label for="vegetarian">vegetarian</label>
+    <br>
+    <input type="radio" name="meat_amount" id="vegan" value="vegan">
+    <label for="vegan">vegan</label>
+    <br>
+    <button type="submit">Submit</button>
+</form>
+
+
+<p>Your carbon footprint based on your meat consumption is: <input type="text" id="result" /></p>
+
+<link rel="stylesheet" relf="style.css">
+</body>
+</html>
